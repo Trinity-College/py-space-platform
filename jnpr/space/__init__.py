@@ -17,5 +17,9 @@
 # limitations under the License.
 #
 
-import requests.packages.urllib3
-requests.packages.urllib3.disable_warnings()
+try:
+    import requests.packages.urllib3
+    requests.packages.urllib3.disable_warnings()
+except ImportError as e:
+    # This might happen if using a packaged version of requests.
+    pass
