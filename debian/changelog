@@ -1,3 +1,10 @@
+space-ez (1.0.1+tc.1) unstable; urgency=medium
+
+  * local package
+  * Catch failing import of urllib3
+
+ -- Geoff Crompton <geoffc@trinity.unimelb.edu.au>  Fri, 22 Jul 2016 08:48:22 +1000
+
 space-ez (1.0.1-1) unstable; urgency=low
 
   * source package automatically created by stdeb 0.6.0+git

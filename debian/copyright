@@ -1,0 +1,11 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: *
+Copyright: 2015 Juniper Networks, Inc.
+License: Apache
+ See /usr/share/common-licenses/Apache-2.0 for the full text of the license.
+
+Files: debian/*
+Copyright: 2016 Geoff Crompton
+License: GPL-2+
+ See /usr/share/common-licenses/GPL-2 for the full text of the license.

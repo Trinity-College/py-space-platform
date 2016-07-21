@@ -3,10 +3,14 @@ Maintainer: Roshan Joyce <rjoyce@juniper.net>
 Section: python
 Priority: optional
 Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7)
-Standards-Version: 3.9.1
+Standards-Version: 3.9.4
 
 Package: python-space-ez
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
-Description: UNKNOWN
+Description: SpaceEZ is an open-source Python library to allow easy access
+ to Junos Space REST API services for Python developers. The design of the
+ library closely follows the hierarchical structure of Junos Space REST API
+ and provides minimum learning curve for Python developers to be able to
+ utilize these APIs.
 

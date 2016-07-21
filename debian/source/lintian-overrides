@@ -1,0 +1,2 @@
+# Deliberately changed, to simplify internal packaging effort
+python-space-ez binary: latest-debian-changelog-entry-changed-to-native
